@@ -1,0 +1,11 @@
+.btn-6{
+    color: white;
+    border-color: #de0ff1;
+    background-color: #de0ff1 ;
+}
+
+.btn-6:hover{
+    background-color: #7d0988;
+    border-color: #7d0988;
+    transition-duration:600ms;
+}

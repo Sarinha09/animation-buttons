@@ -1,0 +1,32 @@
+.btn-7 {
+    border-radius: 13px;
+    border: #a455ee;;
+    color: #fff ;
+    background: #a455ee;;
+}
+
+.btn-7:hover {
+    background: transparent; 
+}
+.btn-7:before,.btn-7:after{
+    content:'';
+    position:absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #a455ee;;
+    transition: 400ms ease all;
+    
+}
+.btn-7:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+    
+}
+.btn-7:hover:before, .btn-7:hover:after{
+    width: 100%;
+    transition: 900ms ease all;
+  }

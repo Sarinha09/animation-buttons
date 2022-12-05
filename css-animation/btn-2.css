@@ -1,0 +1,30 @@
+.btn-2 {
+    border-color: #a455ee;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+.btn-2:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #a455ee;
+    z-index: -1;
+    -webkit-transition: width 250ms ease-in-out;
+    transition: width 250ms ease-in-out;
+  }
+.btn-2:hover {
+    color: #fff;
+  }
+.btn-2:hover:after {
+    width: 110%;
+  }

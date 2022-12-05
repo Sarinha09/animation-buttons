@@ -1,0 +1,30 @@
+.btn-8 {
+    background: #ff7675;
+    border: none;
+    z-index: 1;
+    color: white;
+  }
+.btn-8:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #d66262;
+    border-radius: 13px;
+    transition: all 0.6s ease;
+  }
+.btn-8:hover {
+    color: #fff;
+  }
+.btn-8:hover:after {
+    left: 0;
+    width: 100%;
+  }
+.btn-8:active {
+    top: 0px;
+  }
+  
+  

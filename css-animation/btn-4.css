@@ -1,0 +1,28 @@
+.btn-4{
+    position: relative;
+    display: block;
+    color: white;
+    border: 2px solid #75bcff;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+.btn-4::before{
+    background: #75bcff;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.5s ease;
+  }
+
+.btn-4::before{
+    width: 100%;
+    height: 0%;
+  }
+.btn-4:hover::before{
+    height: 100%;
+  }
+  

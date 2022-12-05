@@ -1,0 +1,12 @@
+
+.btn-10 {
+    border-color: #dbd036;
+    color: #fff;
+    background-color: #dbd036;
+    box-shadow: 0 0 40px 40px #dbd036 inset, 0 0 0 0 #dbd036;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+.btn-10:hover {
+    box-shadow: 0 0 10px 0 #dbd036 inset, 0 0 10px 4px #dbd036;
+  }
